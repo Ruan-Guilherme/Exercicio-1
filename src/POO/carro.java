@@ -20,7 +20,7 @@ public class carro {
         
         
         
-        System.out.println("----------CARRO-----------");
+        System.out.println("----------CARRO----------");
         System.out.println("Cor do Carro: " + cor);
         System.out.println("Numero de porta: " + numporta);
         System.out.println("Placa do carro: " + placa);

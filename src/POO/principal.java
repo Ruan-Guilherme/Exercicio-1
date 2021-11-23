@@ -20,8 +20,10 @@ public class principal {
         Carro.setPlaca("NFT-2488");
         Carro.setTipo("gol");
         
-        Carro.imprimeDadosCarro();
-
+        //Carro.imprimeDadosCarro();
+        
+        double a=3, b=2;
+        System.out.println("quadrado de "+a+" e: "+ Calculo.elevar(a, b));
        
         Pessoa pessoa = new Pessoa();
 
