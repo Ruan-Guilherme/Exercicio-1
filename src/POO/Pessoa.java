@@ -10,5 +10,53 @@ package POO;
  * @author IFSC
  */
 public class Pessoa {
+
+    String nome;
+    String CorDosOlhos;
+    int idade;
+    String DataDeNacimento;
+    
+    
+    void imprimirDadosPessoa(){
+        System.out.println("----------PESSOA----------");
+        System.out.println("Nome: " + nome);
+        System.out.println("Cor dos olhos: " + CorDosOlhos);
+        System.out.println("Idade: " + idade);
+        System.out.println("Date de nacimento: " + DataDeNacimento);
+
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCorDosOlhos() {
+        return CorDosOlhos;
+    }
+
+    public void setCorDosOlhos(String CorDosOlhos) {
+        this.CorDosOlhos = CorDosOlhos;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getDataDeNacimento() {
+        return DataDeNacimento;
+    }
+
+    public void setDataDeNacimento(String DataDeNacimento) {
+        this.DataDeNacimento = DataDeNacimento;
+    }
+    
     
 }

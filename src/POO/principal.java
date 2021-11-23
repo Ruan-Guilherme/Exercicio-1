@@ -10,5 +10,27 @@ package POO;
  * @author IFSC
  */
 public class principal {
-    
+
+    public static void main(String[] args) {
+
+        carro Carro = new carro();
+
+        Carro.setCor("Azul");
+        Carro.setNumporta(4);
+        Carro.setPlaca("NFT-2488");
+        Carro.setTipo("gol");
+        
+        Carro.imprimeDadosCarro();
+
+       
+        Pessoa pessoa = new Pessoa();
+
+        pessoa.setNome("Carlos");
+        pessoa.setCorDosOlhos("Verde");
+        pessoa.setIdade(17);
+        pessoa.setDataDeNacimento("30/05/2004");
+
+        pessoa.imprimirDadosPessoa();
+    }
+
 }
