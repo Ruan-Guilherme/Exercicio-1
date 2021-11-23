@@ -16,10 +16,14 @@ public class carro {
     String placa;
     int numporta;
 
+    public carro(String tipo, String cor, String placa, int numporta) {
+        this.tipo = tipo;
+        this.cor = cor;
+        this.placa = placa;
+        this.numporta = numporta;
+    }
+
     void imprimeDadosCarro() {
-        
-        
-        
         System.out.println("----------CARRO----------");
         System.out.println("Cor do Carro: " + cor);
         System.out.println("Numero de porta: " + numporta);

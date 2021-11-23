@@ -13,14 +13,11 @@ public class principal {
 
     public static void main(String[] args) {
 
-        carro Carro = new carro();
+        carro Carro = new carro("gol", "azul", "NFT-2488", 4);
 
-        Carro.setCor("Azul");
-        Carro.setNumporta(4);
-        Carro.setPlaca("NFT-2488");
-        Carro.setTipo("gol");
+      
         
-        //Carro.imprimeDadosCarro();
+        Carro.imprimeDadosCarro();
         
         double a=3, b=2;
         System.out.println("quadrado de "+a+" e: "+ Calculo.elevar(a, b));
