@@ -19,16 +19,16 @@ public class carro {
      Pessoa dono;
     
     void ligar(){
-        System.out.println("Ligando o Carro");
+        System.out.println("Ligando   Carro");
     }
     void Desligar(){
-        System.out.println("Desligando o Carro");
+        System.out.println("Desligando  Carro");
     }
     void Acelerar(){
-        System.out.println("Acelerando o Carro");
+        System.out.println("Acelerando  Carro");
     }
     void Frear(){
-        System.out.println("Freando o Carro");
+        System.out.println("Freando  Carro");
     }
     
    
