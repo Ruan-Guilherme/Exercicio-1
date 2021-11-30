@@ -15,6 +15,23 @@ public class Pessoa {
     String CorDosOlhos;
     int idade;
     String DataDeNacimento;
+    carro Carro;
+    
+    void ligarCarro(){
+        Carro.ligar();
+    }
+    void desligarCarro(){
+        Carro.Desligar();
+    }
+    void acelerarCarro(){
+        Carro.Acelerar();
+    }
+    void frearCarro(){
+        Carro.Frear();
+    }
+    void setCambioMarcha(int marcha){
+        Carro.setCambio(marcha);   
+    }
     
     
     void imprimirDadosPessoa(){
@@ -23,9 +40,19 @@ public class Pessoa {
         System.out.println("Cor dos olhos: " + CorDosOlhos);
         System.out.println("Idade: " + idade);
         System.out.println("Date de nacimento: " + DataDeNacimento);
+        
 
     }
 
+    public carro getCarro() {
+        return Carro;
+    }
+
+    public void setCarro(carro Carro) {
+        this.Carro = Carro;
+    }
+    
+    
     public String getNome() {
         return nome;
     }

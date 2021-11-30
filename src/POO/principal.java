@@ -13,23 +13,42 @@ public class principal {
 
     public static void main(String[] args) {
 
-        carro Carro = new carro("gol", "azul", "NFT-2488", 4);
-
+      carro Carro = new carro();
       
-        
-        Carro.imprimeDadosCarro();
-        
-        double a=3, b=2;
-        System.out.println("quadrado de "+a+" e: "+ Calculo.elevar(a, b));
+      Carro.setCor("vermelho");
+      Carro.setNumporta(4);
+      Carro.setTipo("mercedes");
+      Carro.setPlaca("NEF-1501");
        
-        Pessoa pessoa = new Pessoa();
+      Pessoa p = new Pessoa();
+      
+      p.setNome("Carlos");
+      p.setCorDosOlhos("Azul");
+      p.setIdade(18);
+      p.setDataDeNacimento("30/11/2003");
+      
+      
+      p.setCarro(Carro);
+      p.ligarCarro();
+      p.setCambioMarcha(1);
+      p.acelerarCarro();
+      p.setCambioMarcha(2);
+      p.acelerarCarro();
+      p.setCambioMarcha(3);
+      p.acelerarCarro();
+      p.setCambioMarcha(4);
+      System.out.println("");
+      
+      p.getCarro().getCambio();
+      
+      
+      Carro.setDono(p);
+      
+       Carro.imprimeDadosCarro();
+       p.imprimirDadosPessoa();
+       
+       
 
-        pessoa.setNome("Carlos");
-        pessoa.setCorDosOlhos("Verde");
-        pessoa.setIdade(17);
-        pessoa.setDataDeNacimento("30/05/2004");
-
-        pessoa.imprimirDadosPessoa();
-    }
-
+              
+               }
 }
